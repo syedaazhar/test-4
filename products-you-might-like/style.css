@@ -1,0 +1,60 @@
+section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 280px;
+    margin-left: 15px;
+    border: 0;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    margin-top:30px;
+}
+
+#img-1{
+    background-image: url('images/prod-1.png')
+}
+
+#img-2{
+    background-image: url('images/prod-2.png')
+}
+
+#img-3{
+    background-image: url('images/prod-3.png')
+}
+
+#img-4{
+    background-image: url('images/prod-4.png')
+}
+
+.card-img-top{
+    background-position: center;
+    background-size: cover;
+    width: 278px;
+    height: 280px;
+}
+
+.card-text{
+    font-size: 18px
+}
+
+.card-title{
+    font-size: 20px;
+}
+
+.card-subtitle{
+    font-size: 17px;
+}
+
+.price{
+    font-size: 16px;
+}
+
+.card-body{
+    padding: 10px;
+}

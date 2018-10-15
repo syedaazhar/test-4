@@ -1,0 +1,105 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #eeeeee;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h4{
+    color: #606071;
+}
+
+header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-left: 85px;
+}
+
+.game-img{
+    background-position: center;
+    background-size: cover;
+    width: 155px;
+    height: 160px;
+    margin-top: 15px;
+}
+
+#num-game{
+    background-image: url('images/2048.png');
+}
+
+#memo-game{
+    background-image: url('images/veg-memory.png');
+}
+
+#flow-game{
+    background-image: url('images/flow-free.png');
+}
+
+#yellow-game{
+    background-image: url('images/2048-yellow.png');
+}
+
+#original-game{
+    background-image: url('images/2048-original.png');
+}
+
+#snake-game{
+    background-image: url('images/snake-vs-block.png');
+}
+
+
+.card{
+    width: 200px;
+    align-items: center;
+    margin-right: 10px;
+    border: 0;
+    border-radius: 0;
+}
+
+.card-body{
+    padding: 8px;
+    width: 183px;
+}
+
+.code, .card-text{
+    margin: 0;
+}
+
+.code{
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 500;
+    color: #23242b;
+    cursor: pointer;
+}
+
+.code:hover, .card-text:hover{
+    text-decoration: underline;
+}
+
+.card-text{
+    font-size: 17px;
+    color: #ababab;
+    cursor: pointer;
+}
+
+.rating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fas{
+    font-size: 15px;
+    color: #747474;
+}
+
+.free{
+    color: #1eb64e;
+    font-size: 18px;
+}

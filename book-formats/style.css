@@ -1,0 +1,58 @@
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section{
+    width: 189px;
+}
+
+.card{
+    width: 165px;
+    margin: 11px 20px 5px;
+}
+
+#div-2{
+    border: 1px solid #eb8c4f;
+    background-color: #fef8f2;
+}
+
+.card-body{
+    padding: 10px;
+}
+
+.card-title{
+    margin-bottom: 4px;
+    font-size: 18px;
+}
+
+.card-text{
+    font-size: 17px;
+    font-weight: 500;
+    color: #696a6c;
+}
+
+.read-more, .para{
+    font-size: 15px;
+    margin-bottom: 0;
+    color: #3f81c8;
+}
+
+.para{
+    margin-left: 25px;
+}
+
+.free-app,.free{
+    color: #b4372d;
+    font-size: 15px;
+    margin-bottom: 0;
+    margin-left: 25px;
+}
+
+#price{
+      color: #b4372d;
+}
+
+.from{
+    color: #8e8b8b;
+}
